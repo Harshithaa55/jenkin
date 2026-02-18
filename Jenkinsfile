@@ -9,7 +9,7 @@ pipeline {
            branch: 'main'
        }
      }
-     stages('Run script') {
+     stage('Run script') {
        steps {
          sh 'chmod +x script.sh'
        }
